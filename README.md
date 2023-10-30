@@ -111,8 +111,14 @@
          | !         | Logical NOT          | `!a` or `not a`|
 
 
-   4. Arrays
+   4. [Arrays](https://www.w3schools.com/cpp/cpp_arrays.asp)
+      * `type name[count]`
+      * No need to declare new
+      * Can I use a regular for loop with them?
+      * More to come
    5. Classes
+
+---
 1. Document my journey along the way
 2. FInd the difference between my favoriate language ( C Sharp ) and CPP
 3. Why do I want to learn CPP. 
