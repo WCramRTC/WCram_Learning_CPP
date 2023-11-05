@@ -116,11 +116,29 @@
       * No need to declare new
       * Can I use a regular for loop with them?
       * More to come
-   5. Classes
+
+   8. Classes
+      1. Creating external classes create a bit more work. We have to link through Header files
+      * [Geeks for Geeks - Headers](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/) 
+  
 
 ---
 1. Document my journey along the way
-2. FInd the difference between my favoriate language ( C Sharp ) and CPP
+   * C++ has a lot of similarites in the structure of C#, which makes sense, I believe C# is built on top of C++.
+   * Even a little knowledge of pointers and reference has lead to a far greater understand of whats happening under the hood. I want to dive into the specifics of how and when to properly utilize memory management. 
+   * Question to self : Are deconstructors made by default? They must only be called when I remove items from memory... how do I remove items from memory? ( Found 5 seconds later, delete operator? )
+2. Find the difference between ( C Sharp ) and CPP
+   * You have to declare classes and functions before calling them in the main ( errors pop otherwise )
+   * There are no interfaces. C++ can have multi class inheritance
+   * Memory Management - C# has garbage collection, CPP you have to manually delete objects no longer in use, otherwise this will lead to memory leaks.
 3. Why do I want to learn CPP. 
    1. CPP is a very popular lower level programming language that gives more power to the programmer for minute detail over garbage collection among other things. It's commonly used in game development and is the primary language ( besides the proprietary Blueprint System. )
-4. End goal : What do I want to have built within 4 weeks of starting to learn CPP. A Game for the game dev class.
+4. What Tutorials am I considering using for my project?  
+[Unreal Quick Start - UE 5](https://docs.unrealengine.com/5.0/en-US/unreal-engine-cpp-quick-start/)  
+[Unreal for Students](https://www.unrealengine.com/en-US/students)  
+
+
+5. End goal : What do I want to have built within 4 weeks of starting to learn CPP. A Game for the game dev class.
+
+6. Experience doing the code review in a new language :
+   1. C++ has a lot more neuince than other languages. Leanring how to manage pointers and references. The need for headers. There's a lot to take in. You come to realize how my C# does for you.

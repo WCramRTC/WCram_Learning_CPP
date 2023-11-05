@@ -7,6 +7,9 @@ using std::string;
 using std::cout;
 using std::cin;
 
+// Including Header File
+#include "Player.h"
+
 string myPhrase[4];
 
 class Person {
@@ -17,40 +20,44 @@ class Person {
 
 };
 
-int main() {
+// int main() {
 
-// Person me;
-// me._firstName = "Will";
-// me._lastName = "Cram";
+// // Person me;
+// // me._firstName = "Will";
+// // me._lastName = "Cram";
 
-// cout << me._firstName + " " + me._lastName;
+// // cout << me._firstName + " " + me._lastName;
 
-int a = 10;
-int &b = a;
-int* bPoint = &b;
-a = 15;
+// Player me = Player("Will", 40);
 
-cout << bPoint << "\n";
-cout << *bPoint << "\n";
+// cout << me._name << "\n";
 
-// myPhrase[0] = "This";
-// myPhrase[1] = "Is";
-// myPhrase[2] = "My";
-// myPhrase[3] = "Phrase";
+// int a = 10;
+// int &b = a;
+// int* bPoint = &b;
+// a = 15;
 
-//     for(string word : myPhrase) {
-//         cout << word + " ";
-//     }
+// cout << bPoint << "\n";
+// cout << *bPoint << "\n";
+
+// // myPhrase[0] = "This";
+// // myPhrase[1] = "Is";
+// // myPhrase[2] = "My";
+// // myPhrase[3] = "Phrase";
+
+// //     for(string word : myPhrase) {
+// //         cout << word + " ";
+// //     }
     
 
-    // string my_name;
+//     // string my_name;
 
-    // cout << "Please enter your name :";
-    // cin >> my_name;
-    // cout << "Welcome " + my_name + ", I hope you are enjoying C++";
+//     // cout << "Please enter your name :";
+//     // cin >> my_name;
+//     // cout << "Welcome " + my_name + ", I hope you are enjoying C++";
 
-    // cout << "Hello World";
+//     // cout << "Hello World";
 
-    return 0;
-}
+//     return 0;
+// }
 
